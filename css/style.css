@@ -1,0 +1,233 @@
+html::-webkit-scrollbar{
+    display: none;
+  }
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand h1{
+    padding-left: 2%;
+}
+.comp_contents{
+    
+    display: flex;
+}
+.comp_name{
+    color: rgb(255,145,0);
+}
+.comp_contents img{
+    padding-top: 100px;
+}
+#navbar-example2{
+    position: fixed;
+}
+.top_right_part{
+    padding-left: 763px;
+}
+.nav-item a{
+    color: rgb(255, 255, 255);
+}
+.nav-item a:hover{
+    color: orange;
+}
+#scrollspyHeading1 {
+    padding-top: 150px;
+}
+.about_comp_cont {
+    display: flex;
+    flex-direction: column;
+}
+#scrollspyHeading1{
+    width: auto;
+}
+.nav_link a{
+    color: black;
+}
+@media only screen and (max-width:1200px){
+    .comp_contents img{
+        display: none;
+    }
+    
+    .comp_contents{
+        display: flex;
+    }
+    .top_right_part{
+        right: 0%;
+        padding-left: 15rem;
+    }
+    .nav-item a{
+        padding: 7px;
+    }
+    .about_comp_cont p{
+        width: 100%;
+    }
+}
+
+/* about part*/
+#scrollspyHeading2 h1{
+    text-align: center;
+}
+.about_section{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width:1000px){
+    .per_pic img{
+        width: 150;
+        padding-left: 0%;
+    }
+    .about_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_section p{
+        width: 100%;
+    }
+}
+/* gallery part*/
+
+#scrollspyHeading3{
+    height: 100%;
+}
+#scrollspyHeading3 h1{
+    text-align: center;
+}
+.carousel-item img{
+    width: 1400em;
+    height: 550px;
+}
+@media only screen and (max-width:1000px){
+    .com_images{
+        padding-left: 50%;
+    }
+    .carousel-item {
+        width: 100%;
+        height: 5%;
+    }
+}
+
+/* service content */
+
+#scrollspyHeading4 h1{
+    text-align: center;
+}
+
+.service_contents_video-links1{
+    padding-top: 2%;
+    padding-left: 15%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.service_contents_video-links2{
+    padding-top: 2%;
+    padding-left: 15%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.service_contents_video-links1 div:hover{
+    transform: scale(1.1);
+}
+.service_contents_video-links2 div:hover{
+    transform: scale(1.1);
+}
+.service_contents_video-links1 img:hover{
+    opacity: 0.7;
+}
+.service_contents_video-links2 img:hover{
+    opacity: 0.7;
+}
+.card-text{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (max-width:500px){
+    .service_contents_video-links1{
+        left: 50%;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+    .service_contents_video-links2{
+        left: 50%;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+/* contact content*/
+
+#scrollspyHeading5 h1{
+    text-align: center;
+}
+.soc_links{
+    padding-top: 5%;
+    padding-left: 20%;
+}
+.social_logos img:hover{
+    transform: scale3d(1.1,1.1,1.1);
+}
+.social_logos>a{
+    padding-left: 80px;
+}
+#box{
+    padding-top: 5%;
+    padding-left: 9%;
+    width: 90%;
+}
+#border_bot{
+    border-bottom: 1px solid white;
+    border-color: black;
+}
+.cont_head h1{
+    padding-top: 40px;
+}
+.cont_con{
+    padding-top: 5%;
+    padding-left: 10%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.fir_det{
+    display: flex;
+    align-items: center;
+}
+.sec_det{
+    display: flex;
+    align-items: center;
+}
+.thir_det{
+    display: flex;
+    align-items: center;
+}
+.cont_con h4{
+    padding-left: 2%;
+    font-size: 25px;
+}
+.cont_con>div{
+    padding-left: 7%;
+}
+@media only screen and (max-width:500px){
+    .social_logos a img{
+        width: 50px;
+        height: 40px;
+    }
+    #box{
+        padding-top: 5%;
+        padding-left: 25%;
+        width: 90%;
+    }
+
+}
+@media only screen and (max-width:1200px){
+    .social_logos {
+        left: 0%;
+        display: flex;
+    }
+}
